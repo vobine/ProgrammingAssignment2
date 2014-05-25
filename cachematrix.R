@@ -8,7 +8,7 @@
 ##  get()  - return the matrix
 ##  set(x)  - assign a new matrix value
 ##  getSol()  - return cached inverse (Solution)
-##  setSol(s)  - assign a new vaule to serve as the inverse
+##  setSol(s)  - assign a new value to serve as the cached inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
